@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editify - Popup</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+  <div class="popup-container">
+    <h1>Editify</h1>
+    <button id="toggleEditButton">Toggle Edit Mode</button>
+    <button id="saveChangesButton">Save Changes</button>
+    <button id="loadChangesButton">Load Saved Content</button>
+    <button id="highlightButton">Highlight Text</button>
+    <button id="exportButton">Export Content</button>
+    <button id="exportPdfButton">Export as PDF</button>
+
+
+    <!-- Color Picker for Highlight -->
+    <div>
+      <label for="highlightColor">Highlight Color: </label>
+      <input type="color" id="highlightColor" value="#FFFF00">
+    </div>
+
+    <div class="social-link">
+      <p>Follow us:</p>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
